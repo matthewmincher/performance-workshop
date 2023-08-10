@@ -14,5 +14,8 @@ use App\Http\Controllers\SlowController;
 |
 */
 
+Route::get('/', static function () {
+    return view('index');
+});
 Route::get('/slowcontroller', [SlowController::class, 'index']);
 Route::get('/slowcontroller/promos', [SlowController::class, 'promos']);

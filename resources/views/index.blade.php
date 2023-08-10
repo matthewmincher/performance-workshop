@@ -14,7 +14,7 @@
     </head>
     <body class="antialiased">
         <div class="relative sm:flex sm:justify-center sm:items-center bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white" style="min-height: 200px;">
-            <h1>SlowController.Index</h1>
+            <h1>:></h1>
         </div>
     </body>
 </html>
