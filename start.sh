@@ -7,6 +7,8 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 
+./vendor/bin/sail npm install
+./vendor/bin/sail npm run build
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail artisan migrate
